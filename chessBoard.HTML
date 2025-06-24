@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+         margin-top:50px;
+    margin-left: 500px;
+    height: 600px;
+    width: 600px;
+    border: 1px solid ;
+}
+   .sub{
+     display: flex;
+    height: 75px;
+    width: 100%;
+   }
+.even{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width: 75px;
+    height: 100%;
+    /* border: 1px solid; */
+}
+.odd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    width: 75px;
+    height: 100%;
+    /* border: 1px solid; */
+}
+  .even:nth-last-child(odd)
+{
+ background-color: white;
+}
+ .even:nth-last-child(odd)
+{
+ background-color: lightblue;
+}
+.odd:nth-last-child(even)
+{
+ background-color: white;
+}
+.odd:nth-last-child(even)
+{
+ background-color: lightblue;
+}
+.sub:nth-child(7){
+    color: brown;
+}
+.sub:nth-child(8){
+    color: brown;
+}
+.items{
+  color: brown;
+}
+.check {
+  background-color: red !important;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sub">
+     <div class="even">♜</div>
+     <div class="even">♞</div>
+     <div class="even">♝</div>
+    <div class="even check">♚</div>
+    <div class="even">♛</div>
+    <div class="even">♝</div>
+    <div class="even">♞</div>
+    <div class="even">♜</div>
+    </div>
+    <div class="sub">
+    <div class="odd">♟</div>
+    <div class="odd">♟</div>
+    <div class="odd items">♛</div>
+    <div class="odd"></div>
+    <div class="odd">♟</div>
+    <div class="odd"></div>
+    <div class="odd">♟</div>
+    <div class="odd"></div>
+    </div>
+    <div class="sub">
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    </div>
+    <div class="sub">
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd">♟</div>
+    <div class="odd"></div>
+    <div class="odd">♟</div>
+    <div class="odd"></div>
+    <div class="odd">♟</div>
+    </div>
+    <div class="sub">
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even"></div>
+    <div class="even items">♟</div>
+    <div class="even"></div>
+    <div class="even items">♝</div>
+    <div class="even"></div>
+    <div class="even"></div>
+    </div>
+    <div class="sub">
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    <div class="odd"></div>
+    </div>
+    <div class="sub">
+    <div class="even">♟</div>
+    <div class="even">♟</div>
+    <div class="even">♟</div>
+    <div class="even"></div>
+    <div class="even">♟</div>
+    <div class="even">♟</div>
+    <div class="even">♟</div>
+    <div class="even">♟</div>
+    </div>
+    <div class="sub">
+    <div class="odd">♜</div>
+     <div class="odd">♞</div>
+     <div class="odd"></div>
+     <div class="odd">♚</div>
+     <div class="odd"></div>
+    <div class="odd">♝</div>
+    <div class="odd">♞</div>
+    <div class="odd">♜</div>
+    </div>
+  </div>
+</body>
+</html>
